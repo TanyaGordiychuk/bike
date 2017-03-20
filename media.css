@@ -1,0 +1,42 @@
+/*phones*/
+@media screen and (max-width: 768px) {
+    .xs-hidden {
+        display: none;
+    }
+    .page-block-on_xs {
+    min-height: 50%;
+    height: 50%;
+    }
+    .input-email-xs {
+    width: 170px;
+    padding: 10px;
+    }
+    .submit-xs {
+    width: 50px;
+    padding: 10px;
+    }
+}
+/*tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .sm-hidden {
+        display: none;
+    }
+    .pull-left-sm {
+        float: left;
+    }
+    .pull-right-sm {
+        float: right;
+    }
+}
+/*laptops*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .md-hidden {
+        display: none;
+    }
+}
+
+/*desktops*/
+@media screen and (min-width: 1200px) {
+    .lg-hidden {
+        display: none;
+    }
